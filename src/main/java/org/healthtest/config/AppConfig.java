@@ -4,6 +4,7 @@ import org.healthtest.model.*;
 import org.springframework.context.annotation.*;
 
 @Configuration
+@EnableAspectJAutoProxy
 public class AppConfig {
 
     @Bean
